@@ -11,7 +11,7 @@ Student.prototype.setSubject = function(subjectName) {
 
 Student.prototype.addMarks = function(...marksToAdd) {
     if (!this.marks) {
-		console.log("Error: Student has been expeled. ");
+		console.log("Error: Student has been expelled.");
         return;
     }	
     this.marks.push(...marksToAdd);
